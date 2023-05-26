@@ -1,9 +1,9 @@
 //5. Sayfa basliginin “Amazon” icerdigini test edin.
 - String expectedIcerik="Amazon";
 
-String actualTitle =driver.getTitle();
+- String actualTitle =driver.getTitle();
 
-if (actualTitle.contains(expectedIcerik)){
+- if (actualTitle.contains(expectedIcerik)){
 
     System.out.println("Title Amazon iceriyor, Test PASSED");
 
@@ -15,4 +15,4 @@ if (actualTitle.contains(expectedIcerik)){
 
 //6. Sayfa adresini(url) yazdirin
 
-System.out.println("Sayfa url: "+driver.getCurrentUrl());
+- System.out.println("Sayfa url: "+driver.getCurrentUrl());
