@@ -1,5 +1,5 @@
 //5. Sayfa basliginin “Amazon” icerdigini test edin.
-String expectedIcerik="Amazon";
+- String expectedIcerik="Amazon";
 
 String actualTitle =driver.getTitle();
 
