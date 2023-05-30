@@ -16,4 +16,4 @@ System.out.println(driver.getWindowHandles());// eger driver calisirken birden f
 Thread.sleep(5000); //milisaniye olarak yazilan sayi suresince kodu bekletir.
 
 driver.close(); // acilan browseri, kapatir.
-driver.quit(); // 
+driver.quit(); //  acik olan tum browserlari kapatir.
