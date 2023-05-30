@@ -1,4 +1,4 @@
-driver.get("https://www.amazon.com");
+ driver.get("https://www.amazon.com");
 
 - System.out.println("Baslangicta konum : "+driver.manage().window().getPosition());
 - System.out.println("Baslangicta boyut : "+driver.manage().window().getSize());
@@ -12,8 +12,8 @@ driver.get("https://www.amazon.com");
 - driver.manage().window().fullscreen();
 - System.out.println("Fullscreen konum : "+driver.manage().window().getPosition());
 - System.out.println("Fullscreen boyut : "+driver.manage().window().getSize());
-
-- Thread.sleep(2500);
+    
+- Thread.sleep(2500);   
 - driver.manage().window().minimize();
 - System.out.println("Minimize konum : "+driver.manage().window().getPosition());
 - System.out.println("Minimize boyut : "+driver.manage().window().getSize());
