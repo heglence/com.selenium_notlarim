@@ -8,9 +8,7 @@
         System.out.println("Title Amazon iceriyor, Test PASSED");
 
   }else{
-
         System.out.println("Title Amazon icermiyor, Test FAILED");
-
     }
 
 //6. Sayfa adresini(url) yazdirin
